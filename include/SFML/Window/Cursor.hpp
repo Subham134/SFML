@@ -57,14 +57,14 @@ public:
     /// ------------------------------------|:-----:|:--------:|:--------:
     ///  sf::Cursor::Arrow                  |  yes  |    yes   |   yes
     ///  sf::Cursor::ArrowWait              |  no   |    no    |   yes
-    ///  sf::Cursor::Wait                   |  yes  |    yes*  |   yes
+    ///  sf::Cursor::Wait                   |  yes  |    no    |   yes
     ///  sf::Cursor::Text                   |  yes  |    yes   |   yes
     ///  sf::Cursor::Hand                   |  yes  |    yes   |   yes
     ///  sf::Cursor::SizeHorizontal         |  yes  |    yes   |   yes
     ///  sf::Cursor::SizeVertical           |  yes  |    yes   |   yes
     ///  sf::Cursor::SizeTopLeftBottomRight |  no   |    yes*  |   yes
     ///  sf::Cursor::SizeBottomLeftTopRight |  no   |    yes*  |   yes
-    ///  sf::Cursor::SizeAll                |  yes  |    yes*  |   yes
+    ///  sf::Cursor::SizeAll                |  yes  |    no    |   yes
     ///  sf::Cursor::Cross                  |  yes  |    yes   |   yes
     ///  sf::Cursor::Help                   |  yes  |    yes*  |   yes
     ///  sf::Cursor::NotAllowed             |  yes  |    yes   |   yes
